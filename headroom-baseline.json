@@ -1,0 +1,9 @@
+{
+  "version": "0.37.0",
+  "source_commit": "32d7ca4577d599b8a5f811ada74cf31504302c9d",
+  "source_repository": "https://github.com/headroomlabs-ai/headroom",
+  "release_url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.37.0",
+  "verified_at_utc": "2026-09-18T19:35:17.555149+00:00",
+  "configuration_selection": "Prespecify strongest applicable cache/token/lossless baseline before evaluating an independent holdout.",
+  "runtime_dependency": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "code_review-00",
+  "family": "code_review",
+  "kind": "answer",
+  "phases": [
+    {
+      "prompt": "Identify every function violating its documented contract. Return answer as a sorted array of function names, with no correct functions included.",
+      "resources": {
+        "module.py": "def add_0(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_1(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_2(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_3(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_4(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_5(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a - b\n\ndef add_6(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_7(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_8(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_9(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_10(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_11(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_12(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_13(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_14(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_15(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_16(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_17(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_18(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_19(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_20(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_21(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a - b\n\ndef add_22(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_23(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_24(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_25(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_26(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_27(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_28(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n\ndef add_29(a, b):\n    \"\"\"Return a plus b.\"\"\"\n    return a + b\n"
+      },
+      "expected": [
+        "add_21",
+        "add_5"
+      ]
+    }
+  ],
+  "provenance": "Original generated fixture, MIT; same operator as candidate. Broad engineering test, not independent customer evidence.",
+  "sha256": "ca86f7c076b5bf6fd950dc28a8ef1b15980090db84ec4f8dec163c2b8d153036"
+}

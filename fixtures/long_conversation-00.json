@@ -1,0 +1,180 @@
+{
+  "id": "long_conversation-00",
+  "family": "long_conversation",
+  "kind": "answer",
+  "phases": [
+    {
+      "prompt": "Return my current project preferences as answer with region, budget (integer) and color.",
+      "resources": {},
+      "expected": {
+        "region": "zone-513",
+        "budget": 3723,
+        "color": "teal"
+      }
+    }
+  ],
+  "provenance": "Original generated fixture, MIT; same operator as candidate. Broad engineering test, not independent customer evidence.",
+  "history": [
+    {
+      "role": "user",
+      "content": "For my project, the region is zone-513, the budget is 3723, and my color preference is red."
+    },
+    {
+      "role": "assistant",
+      "content": "Recorded your project preferences."
+    },
+    {
+      "role": "user",
+      "content": "Note 0: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 1: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 2: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 3: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 4: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 5: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 6: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 7: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 8: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 9: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 10: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 11: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 12: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 13: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 14: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 15: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 16: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Note 17: the project team meets regularly to discuss progress."
+    },
+    {
+      "role": "assistant",
+      "content": "Acknowledged. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. The next project review will cover progress and open questions. "
+    },
+    {
+      "role": "user",
+      "content": "Correction: replace my red preference with teal. Region and budget remain unchanged."
+    },
+    {
+      "role": "assistant",
+      "content": "I have recorded that correction."
+    }
+  ],
+  "sha256": "bea7d6fc1ecb4323d8ce0500824be5f5c1690ce7aa5c568b43a77a9645d323ef"
+}

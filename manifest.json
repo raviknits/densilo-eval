@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "split": "development",
+  "independent_sources": false,
+  "license": "MIT",
+  "tasks": [
+    {
+      "id": "structured_aggregation-00",
+      "cluster": "structured_aggregation",
+      "sha256": "858fc600d6372a79fa3aa5bd31f78d2557206b7f9b9d83a7749e52914e5b8933",
+      "path": "fixtures/structured_aggregation-00.json"
+    },
+    {
+      "id": "structured_lookup-00",
+      "cluster": "structured_lookup",
+      "sha256": "e38217dcc015aa6958171b0dd47a0a14b97101c49bf484a8c6410b46e7f29331",
+      "path": "fixtures/structured_lookup-00.json"
+    },
+    {
+      "id": "search_evidence-00",
+      "cluster": "search_evidence",
+      "sha256": "ebfeabb484f43ffa9bee7a7a0b9b7aaab433efc235d0dba439c7c8c297ccdd7e",
+      "path": "fixtures/search_evidence-00.json"
+    },
+    {
+      "id": "research_conflicts-00",
+      "cluster": "research_conflicts",
+      "sha256": "dfa53883ae96cb0e1f73562458b623633bfb3fba0c7c6e2b2a621651ce966560",
+      "path": "fixtures/research_conflicts-00.json"
+    },
+    {
+      "id": "log_diagnosis-00",
+      "cluster": "log_diagnosis",
+      "sha256": "82e09822aef947ac3ba12d17e3d1bb4f93dc956c1b9c5065c7c6e4164a141ca5",
+      "path": "fixtures/log_diagnosis-00.json"
+    },
+    {
+      "id": "log_exact_count-00",
+      "cluster": "log_exact_count",
+      "sha256": "ccb25f246463f2377de4e0d45b06cdb70285c803539bc474a25c42f438b487bc",
+      "path": "fixtures/log_exact_count-00.json"
+    },
+    {
+      "id": "code_repair-00",
+      "cluster": "code_repair",
+      "sha256": "3d269a4ffa0b7a470a1ab827cf5f4921a8d4d499a0e7577ddc75cb8405a38319",
+      "path": "fixtures/code_repair-00.json"
+    },
+    {
+      "id": "code_review-00",
+      "cluster": "code_review",
+      "sha256": "62d0c864bd1bc8fe7c609c0fd22ef1dfbb8eeba48c319814d2672b128c16c084",
+      "path": "fixtures/code_review-00.json"
+    },
+    {
+      "id": "long_conversation-00",
+      "cluster": "long_conversation",
+      "sha256": "0dc03677104875fbe0b0a02c47f7fe4ed2c40ec4e8a369b81416f13445f75eb7",
+      "path": "fixtures/long_conversation-00.json"
+    },
+    {
+      "id": "session_freshness-00",
+      "cluster": "session_freshness",
+      "sha256": "11327ac7dfbb1beddd4ce2ee5a0bf2c894a850d12af0a3611320ee73431010e8",
+      "path": "fixtures/session_freshness-00.json"
+    },
+    {
+      "id": "structured_aggregation-01",
+      "cluster": "structured_aggregation",
+      "sha256": "fc6943e7a7cfafa9c4060ca3a674593521a1c071b2c14488e6930cc586e3fe68",
+      "path": "fixtures/structured_aggregation-01.json"
+    },
+    {
+      "id": "structured_lookup-01",
+      "cluster": "structured_lookup",
+      "sha256": "6ac557b1cc3b3d29925ef4f3c15192dcd3a487c44acb7a5034a9b6d169ca5158",
+      "path": "fixtures/structured_lookup-01.json"
+    },
+    {
+      "id": "search_evidence-01",
+      "cluster": "search_evidence",
+      "sha256": "e223307402a3782256293a5799127d51cb99ba83d8f5fb757d269ca738c9e43f",
+      "path": "fixtures/search_evidence-01.json"
+    },
+    {
+      "id": "research_conflicts-01",
+      "cluster": "research_conflicts",
+      "sha256": "183391fb5717ad2003447bdf684624275fe56a6109c85ca070f67e310a90a5f0",
+      "path": "fixtures/research_conflicts-01.json"
+    },
+    {
+      "id": "log_diagnosis-01",
+      "cluster": "log_diagnosis",
+      "sha256": "5966410dd5359d86734af0767d415f01f0fd66cc223efe3f5141d6191005f174",
+      "path": "fixtures/log_diagnosis-01.json"
+    },
+    {
+      "id": "log_exact_count-01",
+      "cluster": "log_exact_count",
+      "sha256": "d56660f28d91dbb2671da68122b40d25914601213a734984eba5b07c3db0f690",
+      "path": "fixtures/log_exact_count-01.json"
+    },
+    {
+      "id": "code_repair-01",
+      "cluster": "code_repair",
+      "sha256": "4f62ea93a6cd1905e50b3697106c2b898865ee91e8986f29a5d25760a390bc03",
+      "path": "fixtures/code_repair-01.json"
+    },
+    {
+      "id": "code_review-01",
+      "cluster": "code_review",
+      "sha256": "0e93d07db9b77106768b67a8d9c31f8661ab16a873a574c62e433334e137774c",
+      "path": "fixtures/code_review-01.json"
+    },
+    {
+      "id": "long_conversation-01",
+      "cluster": "long_conversation",
+      "sha256": "943f37e3825429936c0294f3e35f74d452c208550d386353e169340b964b650b",
+      "path": "fixtures/long_conversation-01.json"
+    },
+    {
+      "id": "session_freshness-01",
+      "cluster": "session_freshness",
+      "sha256": "4b52444f9f4a6071bf8b7a872d4df7ad47d40eb35f4ad927de23083fc580c79a",
+      "path": "fixtures/session_freshness-01.json"
+    },
+    {
+      "id": "structured_aggregation-02",
+      "cluster": "structured_aggregation",
+      "sha256": "bbcf09bfd7830b08b7b37cad8ff0326c56125814cedb2c9f96e520abfd90826c",
+      "path": "fixtures/structured_aggregation-02.json"
+    },
+    {
+      "id": "structured_lookup-02",
+      "cluster": "structured_lookup",
+      "sha256": "f81bca7c86b6ce3a510b250c0f7ac85ffda6d0658d8709abd18dd75229236d85",
+      "path": "fixtures/structured_lookup-02.json"
+    },
+    {
+      "id": "search_evidence-02",
+      "cluster": "search_evidence",
+      "sha256": "683d1b638d739016e64d3d86062dd55f44f6a50f38944a44a379dc6ed6ead729",
+      "path": "fixtures/search_evidence-02.json"
+    },
+    {
+      "id": "research_conflicts-02",
+      "cluster": "research_conflicts",
+      "sha256": "dc317e7a3389c5dce370f4d3b4ce0cd22589664afa8569d2aab0b5c35923757f",
+      "path": "fixtures/research_conflicts-02.json"
+    },
+    {
+      "id": "log_diagnosis-02",
+      "cluster": "log_diagnosis",
+      "sha256": "8fe776e1b5387116ed1758985ebf53710855c68599e1299ea9187f3e154e5092",
+      "path": "fixtures/log_diagnosis-02.json"
+    },
+    {
+      "id": "log_exact_count-02",
+      "cluster": "log_exact_count",
+      "sha256": "44d96a69ba65b626c57486788b8936d57115448523f89fd337b5766636ead839",
+      "path": "fixtures/log_exact_count-02.json"
+    },
+    {
+      "id": "code_repair-02",
+      "cluster": "code_repair",
+      "sha256": "a5e80a7489b34e62c0207b9e185b1f95e8ef8d45871a60f0624e47ba3cce302f",
+      "path": "fixtures/code_repair-02.json"
+    },
+    {
+      "id": "code_review-02",
+      "cluster": "code_review",
+      "sha256": "0ff763fe77028c256c423d2b0042501af4da9f5d951d706d58fdc72261d57da4",
+      "path": "fixtures/code_review-02.json"
+    },
+    {
+      "id": "long_conversation-02",
+      "cluster": "long_conversation",
+      "sha256": "3b005e04f43000ff8a59ab747e31bcc999a730de1195d17efeb71545037d91aa",
+      "path": "fixtures/long_conversation-02.json"
+    },
+    {
+      "id": "session_freshness-02",
+      "cluster": "session_freshness",
+      "sha256": "cbe901e768ea168159f5ff9f2f4ef4000658ab03fd631107aa919157577674ed",
+      "path": "fixtures/session_freshness-02.json"
+    }
+  ]
+}

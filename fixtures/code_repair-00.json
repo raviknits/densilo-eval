@@ -1,0 +1,72 @@
+{
+  "id": "code_repair-00",
+  "family": "code_repair",
+  "kind": "code",
+  "phases": [
+    {
+      "prompt": "Repair resolve(key) using all expected mappings in test.log. Return None for unknown keys. Return {\"code\":\"complete Python module\"}.",
+      "resources": {
+        "app.py": "def resolve(key):\n    return 0\n",
+        "test.log": "INFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nINFO helper ready\nFAIL resolve('item_48635'): expected -319, observed 0\nFAIL resolve('item_37738'): expected 519, observed 0\nFAIL resolve('item_30834'): expected -533, observed 0\nFAIL resolve('item_80515'): expected 438, observed 0\nFAIL resolve('item_90273'): expected -622, observed 0\nFAIL resolve('item_17900'): expected 332, observed 0\nFAIL resolve('item_21153'): expected 749, observed 0"
+      },
+      "expected": null
+    }
+  ],
+  "provenance": "Original generated fixture, MIT; same operator as candidate. Broad engineering test, not independent customer evidence.",
+  "private": {
+    "fn": "resolve",
+    "cases": [
+      [
+        [
+          "item_48635"
+        ],
+        -319
+      ],
+      [
+        [
+          "item_37738"
+        ],
+        519
+      ],
+      [
+        [
+          "item_30834"
+        ],
+        -533
+      ],
+      [
+        [
+          "item_80515"
+        ],
+        438
+      ],
+      [
+        [
+          "item_90273"
+        ],
+        -622
+      ],
+      [
+        [
+          "item_17900"
+        ],
+        332
+      ],
+      [
+        [
+          "item_21153"
+        ],
+        749
+      ],
+      [
+        [
+          "missing"
+        ],
+        null
+      ]
+    ],
+    "oracle": "def resolve(key):\n    return {'item_48635': -319, 'item_37738': 519, 'item_30834': -533, 'item_80515': 438, 'item_90273': -622, 'item_17900': 332, 'item_21153': 749}.get(key)\n"
+  },
+  "category": "debugging",
+  "sha256": "1f2739cbe3bae12423b581187b14375eb56c7876f6cee919919a7a70c38c3053"
+}
