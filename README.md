@@ -39,3 +39,8 @@ Identity, billing, memory, image quality, physical devices, native apps, operati
 ## Provenance
 
 Harness and generated fixtures: MIT. `manifest.json` pins fixture bytes; `headroom-baseline.json` records the competitor release/source. Headroom runs as a separately installed competitor, never inside the candidate. Publish grader corrections, failure cases and changed manifests for review. No independent customer benchmark or paid pilot has yet been established by this repository.
+
+
+## Published development result
+
+[19 September 2026 frozen full-proxy comparison](results/2026-09-19-codex-development/REPORT.md): Densilo 20/20 correct; Headroom cache 16/20, token 16/20, lossless 18/20. Densilo used 8.7% fewer total tokens than cache mode and 2.0% fewer than token mode. The token-per-correct-task confidence intervals against cache/token modes include zero. **Consistent superiority, independent customer quality and paid net savings remain unestablished.** The native control scored 19/20; model stochasticity is visible. All 100 observations include upstream attempt accounting and matching source hashes.
