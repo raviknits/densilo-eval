@@ -1,0 +1,32 @@
+{
+  "suite": {
+    "run": 200,
+    "passed": 195,
+    "skipped": 5,
+    "skip_reasons": [
+      "Three PostgreSQL tests require a disposable DSN",
+      "One native-library test requires the platform build",
+      "One historical Headroom-extension test is not installed"
+    ]
+  },
+  "installed_regression_tests": {
+    "run": 15,
+    "passed": 15
+  },
+  "network_contracts": {
+    "run": 26,
+    "passed": 26
+  },
+  "regression_gates": {
+    "run": 42,
+    "passed": 42
+  },
+  "candidate_trials": {
+    "passed": 84,
+    "total": 84
+  },
+  "observations": 456,
+  "complete_usage_accounting": true,
+  "independent_customer_holdout": false,
+  "actual_net_billing_measured": false
+}

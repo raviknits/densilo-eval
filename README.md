@@ -44,3 +44,7 @@ Harness and generated fixtures: MIT. `manifest.json` pins fixture bytes; `headro
 ## Published development result
 
 [19 September 2026 frozen full-proxy comparison](results/2026-09-19-codex-development/REPORT.md): Densilo 20/20 correct; Headroom cache 16/20, token 16/20, lossless 18/20. Densilo used 8.7% fewer total tokens than cache mode and 2.0% fewer than token mode. The token-per-correct-task confidence intervals against cache/token modes include zero. **Consistent superiority, independent customer quality and paid net savings remain unestablished.** The native control scored 19/20; model stochasticity is visible. All 100 observations include upstream attempt accounting and matching source hashes.
+
+## Densilo 0.6.1 regression results
+
+[Repeated development evaluation](results/2026-09-19-densilo-0.6.1/README.md): all four targeted token regressions reversed against Headroom cache/token modes on two development seeds, with 84/84 candidate trials correct. Independent customer and paid-cost superiority remain unproven.

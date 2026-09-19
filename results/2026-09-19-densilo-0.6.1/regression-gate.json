@@ -1,0 +1,238 @@
+{
+  "passed": true,
+  "checks": {
+    "accepted:complete": true,
+    "accepted:frozen_sources": true,
+    "accepted:usage_accounted": true,
+    "accepted:client_wire_match": true,
+    "accepted:overall_quality": true,
+    "accepted:code_repair:quality": true,
+    "accepted:code_repair:previous": true,
+    "accepted:code_repair:headroom_token": true,
+    "accepted:code_repair:headroom_cache": true,
+    "accepted:research_conflicts:quality": true,
+    "accepted:research_conflicts:previous": true,
+    "accepted:research_conflicts:headroom_token": true,
+    "accepted:research_conflicts:headroom_cache": true,
+    "accepted:session_freshness:quality": true,
+    "accepted:session_freshness:previous": true,
+    "accepted:session_freshness:headroom_token": true,
+    "accepted:session_freshness:headroom_cache": true,
+    "accepted:structured_lookup:quality": true,
+    "accepted:structured_lookup:previous": true,
+    "accepted:structured_lookup:headroom_token": true,
+    "accepted:structured_lookup:headroom_cache": true,
+    "accepted-fresh:complete": true,
+    "accepted-fresh:frozen_sources": true,
+    "accepted-fresh:usage_accounted": true,
+    "accepted-fresh:client_wire_match": true,
+    "accepted-fresh:overall_quality": true,
+    "accepted-fresh:code_repair:quality": true,
+    "accepted-fresh:code_repair:previous": true,
+    "accepted-fresh:code_repair:headroom_token": true,
+    "accepted-fresh:code_repair:headroom_cache": true,
+    "accepted-fresh:research_conflicts:quality": true,
+    "accepted-fresh:research_conflicts:previous": true,
+    "accepted-fresh:research_conflicts:headroom_token": true,
+    "accepted-fresh:research_conflicts:headroom_cache": true,
+    "accepted-fresh:session_freshness:quality": true,
+    "accepted-fresh:session_freshness:previous": true,
+    "accepted-fresh:session_freshness:headroom_token": true,
+    "accepted-fresh:session_freshness:headroom_cache": true,
+    "accepted-fresh:structured_lookup:quality": true,
+    "accepted-fresh:structured_lookup:previous": true,
+    "accepted-fresh:structured_lookup:headroom_token": true,
+    "accepted-fresh:structured_lookup:headroom_cache": true
+  },
+  "results": {
+    "accepted": {
+      "code_repair": {
+        "candidate_tokens": 3841,
+        "correct": 6,
+        "trials": 6,
+        "previous": {
+          "tokens": 4348,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 11.660533578656851
+        },
+        "headroom_token": {
+          "tokens": 4008,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 4.1666666666666625
+        },
+        "headroom_cache": {
+          "tokens": 4005,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 4.0948813982521814
+        }
+      },
+      "research_conflicts": {
+        "candidate_tokens": 4562,
+        "correct": 6,
+        "trials": 6,
+        "previous": {
+          "tokens": 15888,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 71.28650553877141
+        },
+        "headroom_token": {
+          "tokens": 14679,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 68.92158866407794
+        },
+        "headroom_cache": {
+          "tokens": 14656,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 68.87281659388647
+        }
+      },
+      "session_freshness": {
+        "candidate_tokens": 17920,
+        "correct": 6,
+        "trials": 6,
+        "previous": {
+          "tokens": 23706,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 24.407323040580444
+        },
+        "headroom_token": {
+          "tokens": 18972,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 5.545013704406498
+        },
+        "headroom_cache": {
+          "tokens": 19012,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 5.743740795287189
+        }
+      },
+      "structured_lookup": {
+        "candidate_tokens": 18362,
+        "correct": 6,
+        "trials": 6,
+        "previous": {
+          "tokens": 22464,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 18.260327635327634
+        },
+        "headroom_token": {
+          "tokens": 19461,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 5.647191819536513
+        },
+        "headroom_cache": {
+          "tokens": 19391,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 5.30658552936929
+        }
+      }
+    },
+    "accepted-fresh": {
+      "code_repair": {
+        "candidate_tokens": 3848,
+        "correct": 6,
+        "trials": 6,
+        "previous": {
+          "tokens": 4343,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 11.397651393046281
+        },
+        "headroom_token": {
+          "tokens": 4004,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 3.8961038961038974
+        },
+        "headroom_cache": {
+          "tokens": 3987,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 3.4863305743666917
+        }
+      },
+      "research_conflicts": {
+        "candidate_tokens": 4539,
+        "correct": 6,
+        "trials": 6,
+        "previous": {
+          "tokens": 15912,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 71.47435897435898
+        },
+        "headroom_token": {
+          "tokens": 15266,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 70.26726057906458
+        },
+        "headroom_cache": {
+          "tokens": 15265,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 70.265312807075
+        }
+      },
+      "session_freshness": {
+        "candidate_tokens": 17874,
+        "correct": 6,
+        "trials": 6,
+        "previous": {
+          "tokens": 23706,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 24.60136674259681
+        },
+        "headroom_token": {
+          "tokens": 18972,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 5.787476280834913
+        },
+        "headroom_cache": {
+          "tokens": 18972,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 5.787476280834913
+        }
+      },
+      "structured_lookup": {
+        "candidate_tokens": 18285,
+        "correct": 6,
+        "trials": 6,
+        "previous": {
+          "tokens": 22363,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 18.235478245315928
+        },
+        "headroom_token": {
+          "tokens": 19315,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 5.332643023556816
+        },
+        "headroom_cache": {
+          "tokens": 19343,
+          "correct": 6,
+          "trials": 6,
+          "saving_percent": 5.469678953626634
+        }
+      }
+    }
+  },
+  "scope": "Two synthetic development seeds, repeated trials. No independent customer or paid-economics claim."
+}

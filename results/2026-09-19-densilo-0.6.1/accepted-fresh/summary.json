@@ -1,0 +1,2522 @@
+{
+  "arms": {
+    "candidate": {
+      "input": 42786,
+      "output": 1760,
+      "cached_input": 0,
+      "calls": 30,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "n": 24,
+      "success": 24,
+      "invalid": 0,
+      "total": 44546,
+      "p50_s": 4.058638624992454,
+      "p95_s": 7.0075327857048215,
+      "tokens_per_success": 1856.0833333333333,
+      "usage_complete": true
+    },
+    "previous": {
+      "input": 64893,
+      "output": 1431,
+      "cached_input": 18176,
+      "calls": 30,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "n": 24,
+      "success": 24,
+      "invalid": 0,
+      "total": 66324,
+      "p50_s": 3.7765467290009838,
+      "p95_s": 5.2545366919774095,
+      "tokens_per_success": 2763.5,
+      "usage_complete": true
+    },
+    "headroom_token": {
+      "input": 55980,
+      "output": 1577,
+      "cached_input": 9216,
+      "calls": 30,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "n": 24,
+      "success": 24,
+      "invalid": 0,
+      "total": 57557,
+      "p50_s": 3.5759548744827043,
+      "p95_s": 4.5308146411349295,
+      "tokens_per_success": 2398.2083333333335,
+      "usage_complete": true
+    },
+    "headroom_cache": {
+      "input": 55980,
+      "output": 1587,
+      "cached_input": 13824,
+      "calls": 30,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "n": 24,
+      "success": 24,
+      "invalid": 0,
+      "total": 57567,
+      "p50_s": 4.078434895956889,
+      "p95_s": 7.939391747239275,
+      "tokens_per_success": 2398.625,
+      "usage_complete": true
+    }
+  },
+  "families": {
+    "code_repair": {
+      "candidate": {
+        "input": 3042,
+        "output": 806,
+        "cached_input": 0,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 3848,
+        "p50_s": 4.193449417012744,
+        "p95_s": 5.671842156021739,
+        "tokens_per_success": 641.3333333333334,
+        "usage_complete": true
+      },
+      "previous": {
+        "input": 3540,
+        "output": 803,
+        "cached_input": 0,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 4343,
+        "p50_s": 4.01702556249802,
+        "p95_s": 10.313375604746398,
+        "tokens_per_success": 723.8333333333334,
+        "usage_complete": true
+      },
+      "headroom_token": {
+        "input": 3186,
+        "output": 818,
+        "cached_input": 0,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 4004,
+        "p50_s": 4.146312041499186,
+        "p95_s": 4.483468771009939,
+        "tokens_per_success": 667.3333333333334,
+        "usage_complete": true
+      },
+      "headroom_cache": {
+        "input": 3186,
+        "output": 801,
+        "cached_input": 0,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 3987,
+        "p50_s": 4.531326333468314,
+        "p95_s": 7.431282343241037,
+        "tokens_per_success": 664.5,
+        "usage_complete": true
+      }
+    },
+    "research_conflicts": {
+      "candidate": {
+        "input": 4338,
+        "output": 201,
+        "cached_input": 0,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 4539,
+        "p50_s": 2.2392374164774083,
+        "p95_s": 5.1141959270171355,
+        "tokens_per_success": 756.5,
+        "usage_complete": true
+      },
+      "previous": {
+        "input": 15774,
+        "output": 138,
+        "cached_input": 5376,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 15912,
+        "p50_s": 2.3759998544992413,
+        "p95_s": 4.001718052502838,
+        "tokens_per_success": 2652.0,
+        "usage_complete": true
+      },
+      "headroom_token": {
+        "input": 15117,
+        "output": 149,
+        "cached_input": 1792,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 15266,
+        "p50_s": 2.4077497295220383,
+        "p95_s": 9.153432395978598,
+        "tokens_per_success": 2544.3333333333335,
+        "usage_complete": true
+      },
+      "headroom_cache": {
+        "input": 15117,
+        "output": 148,
+        "cached_input": 1792,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 15265,
+        "p50_s": 2.284809083532309,
+        "p95_s": 8.183354906752356,
+        "tokens_per_success": 2544.1666666666665,
+        "usage_complete": true
+      }
+    },
+    "session_freshness": {
+      "candidate": {
+        "input": 17691,
+        "output": 183,
+        "cached_input": 0,
+        "calls": 12,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 17874,
+        "p50_s": 4.058638624992454,
+        "p95_s": 7.293877416770556,
+        "tokens_per_success": 2979.0,
+        "usage_complete": true
+      },
+      "previous": {
+        "input": 23550,
+        "output": 156,
+        "cached_input": 7168,
+        "calls": 12,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 23706,
+        "p50_s": 4.047453187493375,
+        "p95_s": 5.243721875274787,
+        "tokens_per_success": 3951.0,
+        "usage_complete": true
+      },
+      "headroom_token": {
+        "input": 18816,
+        "output": 156,
+        "cached_input": 1792,
+        "calls": 12,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 18972,
+        "p50_s": 3.843439896008931,
+        "p95_s": 4.519640051526949,
+        "tokens_per_success": 3162.0,
+        "usage_complete": true
+      },
+      "headroom_cache": {
+        "input": 18816,
+        "output": 156,
+        "cached_input": 3584,
+        "calls": 12,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 18972,
+        "p50_s": 4.999201833998086,
+        "p95_s": 6.385737447504653,
+        "tokens_per_success": 3162.0,
+        "usage_complete": true
+      }
+    },
+    "structured_lookup": {
+      "candidate": {
+        "input": 17715,
+        "output": 570,
+        "cached_input": 0,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 18285,
+        "p50_s": 4.2441557080019265,
+        "p95_s": 4.786739656730788,
+        "tokens_per_success": 3047.5,
+        "usage_complete": true
+      },
+      "previous": {
+        "input": 22029,
+        "output": 334,
+        "cached_input": 5632,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 22363,
+        "p50_s": 3.0737529165053274,
+        "p95_s": 4.039522791761556,
+        "tokens_per_success": 3727.1666666666665,
+        "usage_complete": true
+      },
+      "headroom_token": {
+        "input": 18861,
+        "output": 454,
+        "cached_input": 5632,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 19315,
+        "p50_s": 3.074693041970022,
+        "p95_s": 3.7428260414890246,
+        "tokens_per_success": 3219.1666666666665,
+        "usage_complete": true
+      },
+      "headroom_cache": {
+        "input": 18861,
+        "output": 482,
+        "cached_input": 8448,
+        "calls": 6,
+        "unknown_usage": 0,
+        "retrievals": 0,
+        "n": 6,
+        "success": 6,
+        "invalid": 0,
+        "total": 19343,
+        "p50_s": 3.3790834169776645,
+        "p95_s": 4.94884331227513,
+        "tokens_per_success": 3223.8333333333335,
+        "usage_complete": true
+      }
+    }
+  },
+  "comparisons": {
+    "previous": {
+      "family_clusters": 4,
+      "bootstrap_draws": 10000,
+      "tokens_per_success_saving_percent_ci95": [
+        17.123492848049125,
+        58.59294001481117
+      ],
+      "success_rate_difference_pp_ci95": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "Exploratory paired family bootstrap; generated families and correlated variants are not independent customer workloads.",
+      "tokens_per_success_saving_percent": 32.83577588806465,
+      "total_token_saving_percent": 32.83577588806465,
+      "p95_change_percent": 33.36157298899205,
+      "success_rate_change_pp": 0.0
+    },
+    "headroom_token": {
+      "family_clusters": 4,
+      "bootstrap_draws": 10000,
+      "tokens_per_success_saving_percent_ci95": [
+        5.054221533694814,
+        56.47638816813701
+      ],
+      "success_rate_difference_pp_ci95": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "Exploratory paired family bootstrap; generated families and correlated variants are not independent customer workloads.",
+      "tokens_per_success_saving_percent": 22.60541723856352,
+      "total_token_saving_percent": 22.605417238563508,
+      "p95_change_percent": 54.663859388198134,
+      "success_rate_change_pp": 0.0
+    },
+    "headroom_cache": {
+      "family_clusters": 4,
+      "bootstrap_draws": 10000,
+      "tokens_per_success_saving_percent_ci95": [
+        4.897682087091459,
+        56.435694992728024
+      ],
+      "success_rate_difference_pp_ci95": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "Exploratory paired family bootstrap; generated families and correlated variants are not independent customer workloads.",
+      "tokens_per_success_saving_percent": 22.618861500512455,
+      "total_token_saving_percent": 22.618861500512445,
+      "p95_change_percent": -11.737158099781187,
+      "success_rate_change_pp": 0.0
+    }
+  },
+  "accounting": [
+    {
+      "id": "code_repair-01--candidate--r0",
+      "arm": "candidate",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 507,
+      "output": 127,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.8361467079957947,
+      "client_usage": {
+        "input": 507,
+        "output": 127,
+        "cached_input": 0,
+        "reasoning": 19
+      }
+    },
+    {
+      "id": "code_repair-01--candidate--r1",
+      "arm": "candidate",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 507,
+      "output": 129,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.6101831659907475,
+      "client_usage": {
+        "input": 507,
+        "output": 129,
+        "cached_input": 0,
+        "reasoning": 21
+      }
+    },
+    {
+      "id": "code_repair-01--candidate--r2",
+      "arm": "candidate",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 507,
+      "output": 131,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 5.604184499999974,
+      "client_usage": {
+        "input": 507,
+        "output": 131,
+        "cached_input": 0,
+        "reasoning": 23
+      }
+    },
+    {
+      "id": "code_repair-01--headroom_cache--r0",
+      "arm": "headroom_cache",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 127,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.606379166943952,
+      "client_usage": {
+        "input": 531,
+        "output": 127,
+        "cached_input": 0,
+        "reasoning": 19
+      }
+    },
+    {
+      "id": "code_repair-01--headroom_cache--r1",
+      "arm": "headroom_cache",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 136,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 8.172025415988173,
+      "client_usage": {
+        "input": 531,
+        "output": 136,
+        "cached_input": 0,
+        "reasoning": 28
+      }
+    },
+    {
+      "id": "code_repair-01--headroom_cache--r2",
+      "arm": "headroom_cache",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 131,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.216075790987816,
+      "client_usage": {
+        "input": 531,
+        "output": 131,
+        "cached_input": 0,
+        "reasoning": 23
+      }
+    },
+    {
+      "id": "code_repair-01--headroom_token--r0",
+      "arm": "headroom_token",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 142,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.281526207982097,
+      "client_usage": {
+        "input": 531,
+        "output": 142,
+        "cached_input": 0,
+        "reasoning": 34
+      }
+    },
+    {
+      "id": "code_repair-01--headroom_token--r1",
+      "arm": "headroom_token",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 133,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.357483834028244,
+      "client_usage": {
+        "input": 531,
+        "output": 133,
+        "cached_input": 0,
+        "reasoning": 25
+      }
+    },
+    {
+      "id": "code_repair-01--headroom_token--r2",
+      "arm": "headroom_token",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 134,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.730027917015832,
+      "client_usage": {
+        "input": 531,
+        "output": 134,
+        "cached_input": 0,
+        "reasoning": 26
+      }
+    },
+    {
+      "id": "code_repair-01--previous--r0",
+      "arm": "previous",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 590,
+      "output": 134,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.7806302499957383,
+      "client_usage": {
+        "input": 590,
+        "output": 134,
+        "cached_input": 0,
+        "reasoning": 26
+      }
+    },
+    {
+      "id": "code_repair-01--previous--r1",
+      "arm": "previous",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 590,
+      "output": 134,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.939799082989339,
+      "client_usage": {
+        "input": 590,
+        "output": 134,
+        "cached_input": 0,
+        "reasoning": 26
+      }
+    },
+    {
+      "id": "code_repair-01--previous--r2",
+      "arm": "previous",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 590,
+      "output": 132,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.885144542029593,
+      "client_usage": {
+        "input": 590,
+        "output": 132,
+        "cached_input": 0,
+        "reasoning": 24
+      }
+    },
+    {
+      "id": "code_repair-02--candidate--r0",
+      "arm": "candidate",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 507,
+      "output": 138,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.232269542000722,
+      "client_usage": {
+        "input": 507,
+        "output": 138,
+        "cached_input": 0,
+        "reasoning": 30
+      }
+    },
+    {
+      "id": "code_repair-02--candidate--r1",
+      "arm": "candidate",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 507,
+      "output": 133,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.154629292024765,
+      "client_usage": {
+        "input": 507,
+        "output": 133,
+        "cached_input": 0,
+        "reasoning": 25
+      }
+    },
+    {
+      "id": "code_repair-02--candidate--r2",
+      "arm": "candidate",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 507,
+      "output": 148,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 5.6943947080289945,
+      "client_usage": {
+        "input": 507,
+        "output": 148,
+        "cached_input": 0,
+        "reasoning": 40
+      }
+    },
+    {
+      "id": "code_repair-02--headroom_cache--r0",
+      "arm": "headroom_cache",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 137,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 5.2090531249996275,
+      "client_usage": {
+        "input": 531,
+        "output": 137,
+        "cached_input": 0,
+        "reasoning": 29
+      }
+    },
+    {
+      "id": "code_repair-02--headroom_cache--r1",
+      "arm": "headroom_cache",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 133,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.456273499992676,
+      "client_usage": {
+        "input": 531,
+        "output": 133,
+        "cached_input": 0,
+        "reasoning": 25
+      }
+    },
+    {
+      "id": "code_repair-02--headroom_cache--r2",
+      "arm": "headroom_cache",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 137,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.9860612920019776,
+      "client_usage": {
+        "input": 531,
+        "output": 137,
+        "cached_input": 0,
+        "reasoning": 29
+      }
+    },
+    {
+      "id": "code_repair-02--headroom_token--r0",
+      "arm": "headroom_token",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 130,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.011097875016276,
+      "client_usage": {
+        "input": 531,
+        "output": 130,
+        "cached_input": 0,
+        "reasoning": 22
+      }
+    },
+    {
+      "id": "code_repair-02--headroom_token--r1",
+      "arm": "headroom_token",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 134,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.8270144579582848,
+      "client_usage": {
+        "input": 531,
+        "output": 134,
+        "cached_input": 0,
+        "reasoning": 26
+      }
+    },
+    {
+      "id": "code_repair-02--headroom_token--r2",
+      "arm": "headroom_token",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 531,
+      "output": 145,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.525463750003837,
+      "client_usage": {
+        "input": 531,
+        "output": 145,
+        "cached_input": 0,
+        "reasoning": 31
+      }
+    },
+    {
+      "id": "code_repair-02--previous--r0",
+      "arm": "previous",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 590,
+      "output": 136,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 12.122785958985332,
+      "client_usage": {
+        "input": 590,
+        "output": 136,
+        "cached_input": 0,
+        "reasoning": 28
+      }
+    },
+    {
+      "id": "code_repair-02--previous--r1",
+      "arm": "previous",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 590,
+      "output": 139,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.094252042006701,
+      "client_usage": {
+        "input": 590,
+        "output": 139,
+        "cached_input": 0,
+        "reasoning": 31
+      }
+    },
+    {
+      "id": "code_repair-02--previous--r2",
+      "arm": "previous",
+      "family": "code_repair",
+      "success": true,
+      "valid": true,
+      "input": 590,
+      "output": 128,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.921610166958999,
+      "client_usage": {
+        "input": 590,
+        "output": 128,
+        "cached_input": 0,
+        "reasoning": 20
+      }
+    },
+    {
+      "id": "research_conflicts-01--candidate--r0",
+      "arm": "candidate",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 723,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 1.8112155830021948,
+      "client_usage": {
+        "input": 723,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-01--candidate--r1",
+      "arm": "candidate",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 723,
+      "output": 67,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.0503595829941332,
+      "client_usage": {
+        "input": 723,
+        "output": 67,
+        "cached_input": 0,
+        "reasoning": 46
+      }
+    },
+    {
+      "id": "research_conflicts-01--candidate--r2",
+      "arm": "candidate",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 723,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.1453567079734057,
+      "client_usage": {
+        "input": 723,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-01--headroom_cache--r0",
+      "arm": "headroom_cache",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2410,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 1.6007640829775482,
+      "client_usage": {
+        "input": 2410,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-01--headroom_cache--r1",
+      "arm": "headroom_cache",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2410,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 9.982038708985783,
+      "client_usage": {
+        "input": 2410,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-01--headroom_cache--r2",
+      "arm": "headroom_cache",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2410,
+      "output": 53,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.128662459028419,
+      "client_usage": {
+        "input": 2410,
+        "output": 53,
+        "cached_input": 0,
+        "reasoning": 32
+      }
+    },
+    {
+      "id": "research_conflicts-01--headroom_token--r0",
+      "arm": "headroom_token",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2410,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.5303223750088364,
+      "client_usage": {
+        "input": 2410,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-01--headroom_token--r1",
+      "arm": "headroom_token",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2410,
+      "output": 54,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 11.224491374974605,
+      "client_usage": {
+        "input": 2410,
+        "output": 54,
+        "cached_input": 0,
+        "reasoning": 33
+      }
+    },
+    {
+      "id": "research_conflicts-01--headroom_token--r2",
+      "arm": "headroom_token",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2410,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.9402554589905776,
+      "client_usage": {
+        "input": 2410,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-01--previous--r0",
+      "arm": "previous",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.261891792004462,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-01--previous--r1",
+      "arm": "previous",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 1.7648019160260446,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-01--previous--r2",
+      "arm": "previous",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 1792,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.221196833997965,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-02--candidate--r0",
+      "arm": "candidate",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 723,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.333118124981411,
+      "client_usage": {
+        "input": 723,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-02--candidate--r1",
+      "arm": "candidate",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 723,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 1.8169074169709347,
+      "client_usage": {
+        "input": 723,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-02--candidate--r2",
+      "arm": "candidate",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 723,
+      "output": 58,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 5.802141375024803,
+      "client_usage": {
+        "input": 723,
+        "output": 58,
+        "cached_input": 0,
+        "reasoning": 37
+      }
+    },
+    {
+      "id": "research_conflicts-02--headroom_cache--r0",
+      "arm": "headroom_cache",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 1792,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 1.7939315830008127,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-02--headroom_cache--r1",
+      "arm": "headroom_cache",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.787303500052076,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-02--headroom_cache--r2",
+      "arm": "headroom_cache",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.440955708036199,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-02--headroom_token--r0",
+      "arm": "headroom_token",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 1.9874085829942487,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-02--headroom_token--r1",
+      "arm": "headroom_token",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 1.70013958303025,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-02--headroom_token--r2",
+      "arm": "headroom_token",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 1792,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.28517708403524,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-02--previous--r0",
+      "arm": "previous",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 43,
+      "cached_input": 1792,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.4735447500133887,
+      "client_usage": {
+        "input": 2629,
+        "output": 43,
+        "cached_input": 1792,
+        "reasoning": 22
+      }
+    },
+    {
+      "id": "research_conflicts-02--previous--r1",
+      "arm": "previous",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 1792,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.278454958985094,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "research_conflicts-02--previous--r2",
+      "arm": "previous",
+      "family": "research_conflicts",
+      "success": true,
+      "valid": true,
+      "input": 2629,
+      "output": 19,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 1.5410531249945052,
+      "client_usage": {
+        "input": 2629,
+        "output": 19,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--candidate--r0",
+      "arm": "candidate",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 2944,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.043191625038162,
+      "client_usage": {
+        "input": 2944,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--candidate--r1",
+      "arm": "candidate",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 2971,
+      "output": 53,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.0203145000268705,
+      "client_usage": {
+        "input": 2971,
+        "output": 53,
+        "cached_input": 0,
+        "reasoning": 25
+      }
+    },
+    {
+      "id": "session_freshness-01--candidate--r2",
+      "arm": "candidate",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 2944,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.096962749958038,
+      "client_usage": {
+        "input": 2944,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--headroom_cache--r0",
+      "arm": "headroom_cache",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 6.621134290995542,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--headroom_cache--r1",
+      "arm": "headroom_cache",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 1792,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 5.679546917031985,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--headroom_cache--r2",
+      "arm": "headroom_cache",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 5.374454833974596,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--headroom_token--r0",
+      "arm": "headroom_token",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 1792,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.364245791977737,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--headroom_token--r1",
+      "arm": "headroom_token",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.531758916040417,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--headroom_token--r2",
+      "arm": "headroom_token",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.011375209025573,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--previous--r0",
+      "arm": "previous",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3925,
+      "output": 26,
+      "cached_input": 1792,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.7724632080062293,
+      "client_usage": {
+        "input": 3925,
+        "output": 26,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--previous--r1",
+      "arm": "previous",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3925,
+      "output": 26,
+      "cached_input": 1792,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 5.270758917031344,
+      "client_usage": {
+        "input": 3925,
+        "output": 26,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-01--previous--r2",
+      "arm": "previous",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3925,
+      "output": 26,
+      "cached_input": 1792,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.0059221659903415,
+      "client_usage": {
+        "input": 3925,
+        "output": 26,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--candidate--r0",
+      "arm": "candidate",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 2944,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.803373874980025,
+      "client_usage": {
+        "input": 2944,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--candidate--r1",
+      "arm": "candidate",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 2944,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 7.318420250026975,
+      "client_usage": {
+        "input": 2944,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--candidate--r2",
+      "arm": "candidate",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 2944,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 7.2202489170013,
+      "client_usage": {
+        "input": 2944,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--headroom_cache--r0",
+      "arm": "headroom_cache",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 1792,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.1405565830064006,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--headroom_cache--r1",
+      "arm": "headroom_cache",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.9920431669452228,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--headroom_cache--r2",
+      "arm": "headroom_cache",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.623948834021576,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--headroom_token--r0",
+      "arm": "headroom_token",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.483283457986545,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--headroom_token--r1",
+      "arm": "headroom_token",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.1898478330112994,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--headroom_token--r2",
+      "arm": "headroom_token",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3136,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.675504582992289,
+      "client_usage": {
+        "input": 3136,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--previous--r0",
+      "arm": "previous",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3925,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.5371808750205673,
+      "client_usage": {
+        "input": 3925,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--previous--r1",
+      "arm": "previous",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3925,
+      "output": 26,
+      "cached_input": 0,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 5.162610750005115,
+      "client_usage": {
+        "input": 3925,
+        "output": 26,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "session_freshness-02--previous--r2",
+      "arm": "previous",
+      "family": "session_freshness",
+      "success": true,
+      "valid": true,
+      "input": 3925,
+      "output": 26,
+      "cached_input": 1792,
+      "calls": 2,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.088984208996408,
+      "client_usage": {
+        "input": 3925,
+        "output": 26,
+        "cached_input": 1792,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "structured_lookup-01--candidate--r0",
+      "arm": "candidate",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 2951,
+      "output": 81,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.4908965419745073,
+      "client_usage": {
+        "input": 2951,
+        "output": 81,
+        "cached_input": 0,
+        "reasoning": 40
+      }
+    },
+    {
+      "id": "structured_lookup-01--candidate--r1",
+      "arm": "candidate",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 2951,
+      "output": 94,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.630355499975849,
+      "client_usage": {
+        "input": 2951,
+        "output": 94,
+        "cached_input": 0,
+        "reasoning": 53
+      }
+    },
+    {
+      "id": "structured_lookup-01--candidate--r2",
+      "arm": "candidate",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 2951,
+      "output": 91,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.201449499989394,
+      "client_usage": {
+        "input": 2951,
+        "output": 91,
+        "cached_input": 0,
+        "reasoning": 50
+      }
+    },
+    {
+      "id": "structured_lookup-01--headroom_cache--r0",
+      "arm": "headroom_cache",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3148,
+      "output": 84,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.3942175839911215,
+      "client_usage": {
+        "input": 3148,
+        "output": 84,
+        "cached_input": 0,
+        "reasoning": 43
+      }
+    },
+    {
+      "id": "structured_lookup-01--headroom_cache--r1",
+      "arm": "headroom_cache",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3148,
+      "output": 63,
+      "cached_input": 2816,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.2218473329558037,
+      "client_usage": {
+        "input": 3148,
+        "output": 63,
+        "cached_input": 2816,
+        "reasoning": 22
+      }
+    },
+    {
+      "id": "structured_lookup-01--headroom_cache--r2",
+      "arm": "headroom_cache",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3148,
+      "output": 92,
+      "cached_input": 2816,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 5.210182208043989,
+      "client_usage": {
+        "input": 3148,
+        "output": 92,
+        "cached_input": 2816,
+        "reasoning": 51
+      }
+    },
+    {
+      "id": "structured_lookup-01--headroom_token--r0",
+      "arm": "headroom_token",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3148,
+      "output": 39,
+      "cached_input": 2816,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.705598083033692,
+      "client_usage": {
+        "input": 3148,
+        "output": 39,
+        "cached_input": 2816,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "structured_lookup-01--headroom_token--r1",
+      "arm": "headroom_token",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3148,
+      "output": 90,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.9425734589458443,
+      "client_usage": {
+        "input": 3148,
+        "output": 90,
+        "cached_input": 0,
+        "reasoning": 49
+      }
+    },
+    {
+      "id": "structured_lookup-01--headroom_token--r2",
+      "arm": "headroom_token",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3148,
+      "output": 81,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.8316329999943264,
+      "client_usage": {
+        "input": 3148,
+        "output": 81,
+        "cached_input": 0,
+        "reasoning": 40
+      }
+    },
+    {
+      "id": "structured_lookup-01--previous--r0",
+      "arm": "previous",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3670,
+      "output": 39,
+      "cached_input": 2816,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.256062833010219,
+      "client_usage": {
+        "input": 3670,
+        "output": 39,
+        "cached_input": 2816,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "structured_lookup-01--previous--r1",
+      "arm": "previous",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3670,
+      "output": 39,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.605524124985095,
+      "client_usage": {
+        "input": 3670,
+        "output": 39,
+        "cached_input": 0,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "structured_lookup-01--previous--r2",
+      "arm": "previous",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3670,
+      "output": 85,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.4346290410030633,
+      "client_usage": {
+        "input": 3670,
+        "output": 85,
+        "cached_input": 0,
+        "reasoning": 44
+      }
+    },
+    {
+      "id": "structured_lookup-02--candidate--r0",
+      "arm": "candidate",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 2954,
+      "output": 121,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.319264165998902,
+      "client_usage": {
+        "input": 2954,
+        "output": 121,
+        "cached_input": 0,
+        "reasoning": 81
+      }
+    },
+    {
+      "id": "structured_lookup-02--candidate--r1",
+      "arm": "candidate",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 2954,
+      "output": 87,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.838867708982434,
+      "client_usage": {
+        "input": 2954,
+        "output": 87,
+        "cached_input": 0,
+        "reasoning": 47
+      }
+    },
+    {
+      "id": "structured_lookup-02--candidate--r2",
+      "arm": "candidate",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 2954,
+      "output": 96,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.169047250004951,
+      "client_usage": {
+        "input": 2954,
+        "output": 96,
+        "cached_input": 0,
+        "reasoning": 56
+      }
+    },
+    {
+      "id": "structured_lookup-02--headroom_cache--r0",
+      "arm": "headroom_cache",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3139,
+      "output": 83,
+      "cached_input": 2816,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.164826624968555,
+      "client_usage": {
+        "input": 3139,
+        "output": 83,
+        "cached_input": 2816,
+        "reasoning": 43
+      }
+    },
+    {
+      "id": "structured_lookup-02--headroom_cache--r1",
+      "arm": "headroom_cache",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3139,
+      "output": 81,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.3639492499642074,
+      "client_usage": {
+        "input": 3139,
+        "output": 81,
+        "cached_input": 0,
+        "reasoning": 41
+      }
+    },
+    {
+      "id": "structured_lookup-02--headroom_cache--r2",
+      "arm": "headroom_cache",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3139,
+      "output": 79,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.757254208030645,
+      "client_usage": {
+        "input": 3139,
+        "output": 79,
+        "cached_input": 0,
+        "reasoning": 39
+      }
+    },
+    {
+      "id": "structured_lookup-02--headroom_token--r0",
+      "arm": "headroom_token",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3139,
+      "output": 69,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.9574501249589957,
+      "client_usage": {
+        "input": 3139,
+        "output": 69,
+        "cached_input": 0,
+        "reasoning": 29
+      }
+    },
+    {
+      "id": "structured_lookup-02--headroom_token--r1",
+      "arm": "headroom_token",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3139,
+      "output": 92,
+      "cached_input": 2816,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.1919359589810483,
+      "client_usage": {
+        "input": 3139,
+        "output": 92,
+        "cached_input": 2816,
+        "reasoning": 52
+      }
+    },
+    {
+      "id": "structured_lookup-02--headroom_token--r2",
+      "arm": "headroom_token",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3139,
+      "output": 83,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.4764051659731194,
+      "client_usage": {
+        "input": 3139,
+        "output": 83,
+        "cached_input": 0,
+        "reasoning": 43
+      }
+    },
+    {
+      "id": "structured_lookup-02--previous--r0",
+      "arm": "previous",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3673,
+      "output": 67,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 2.955217416980304,
+      "client_usage": {
+        "input": 3673,
+        "output": 67,
+        "cached_input": 0,
+        "reasoning": 27
+      }
+    },
+    {
+      "id": "structured_lookup-02--previous--r1",
+      "arm": "previous",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3673,
+      "output": 38,
+      "cached_input": 2816,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 4.2411540420143865,
+      "client_usage": {
+        "input": 3673,
+        "output": 38,
+        "cached_input": 2816,
+        "reasoning": 0
+      }
+    },
+    {
+      "id": "structured_lookup-02--previous--r2",
+      "arm": "previous",
+      "family": "structured_lookup",
+      "success": true,
+      "valid": true,
+      "input": 3673,
+      "output": 66,
+      "cached_input": 0,
+      "calls": 1,
+      "unknown_usage": 0,
+      "retrievals": 0,
+      "duration_s": 3.192288416030351,
+      "client_usage": {
+        "input": 3673,
+        "output": 66,
+        "cached_input": 0,
+        "reasoning": 26
+      }
+    }
+  ],
+  "source_integrity": {
+    "pyproject.toml": true,
+    "contextbench/provider.py": true,
+    "contextbench/evaluate.py": true,
+    "contextbench/grade_worker.py": true,
+    "contextbench/query.py": true,
+    "contextbench/standalone/server.py": true,
+    "contextbench/standalone/__init__.py": true,
+    "contextbench/standalone/codec.py": true,
+    "contextbench/service/auth.py": true,
+    "contextbench/service/durable.py": true,
+    "contextbench/service/commerce.py": true,
+    "contextbench/service/config.py": true,
+    "contextbench/service/compat.py": true,
+    "contextbench/service/sdk.py": true,
+    "contextbench/service/pilots.py": true,
+    "contextbench/service/billing.py": true,
+    "contextbench/service/shared_cache.py": true,
+    "contextbench/service/onboarding.py": true,
+    "contextbench/service/asgi.py": true,
+    "contextbench/service/control.py": true,
+    "contextbench/service/async_sdk.py": true,
+    "contextbench/service/__init__.py": true,
+    "contextbench/service/eval_gate.py": true,
+    "contextbench/service/api.py": true,
+    "contextbench/service/operations.py": true,
+    "contextbench/service/providers.py": true,
+    "contextbench/service/engine.py": true,
+    "contextbench/service/cli.py": true,
+    "contextbench/service/mcp.py": true,
+    "contextbench/service/relay.py": true,
+    "contextbench/service/routing.py": true,
+    "contextbench/service/components_api.py": true,
+    "contextbench/service/storage.py": true,
+    "contextbench/service/learning.py": true,
+    "contextbench/service/rls.py": true,
+    "contextbench/service/identity.py": true,
+    "contextbench/service/usage.py": true,
+    "contextbench/service/resilience.py": true,
+    "contextbench/service/optimizer/models.py": true,
+    "contextbench/service/optimizer/vision.py": true,
+    "contextbench/service/optimizer/documents.py": true,
+    "contextbench/service/optimizer/compact.py": true,
+    "contextbench/service/optimizer/code.py": true,
+    "contextbench/service/optimizer/__init__.py": true,
+    "contextbench/service/optimizer/native.py": true,
+    "contextbench/service/optimizer/prose.py": true,
+    "contextbench/service/optimizer/structured.py": true,
+    "contextbench/service/optimizer/router.py": true,
+    "contextbench/service/dashboard/index.html": true,
+    "contextbench/service/dashboard/style.css": true,
+    "contextbench/service/dashboard/app.js": true,
+    "contextbench/service/mcp_gateway/__init__.py": true,
+    "contextbench/benchmark_v3/run.py": true,
+    "contextbench/benchmark_v3/mock_provider.py": true,
+    "contextbench/benchmark_v3/__init__.py": true,
+    "contextbench/benchmark_v3/serve.py": true,
+    "contextbench/benchmark_v3/contracts.py": true,
+    "contextbench/benchmark_v3/report.py": true,
+    "contextbench/proxy_v2/run.py": true,
+    "contextbench/proxy_v2/suite.py": true,
+    "contextbench/proxy_v2/observer.py": true,
+    "contextbench/proxy_v2/report.py": true
+  },
+  "observations": 96,
+  "expected_observations": 96,
+  "relative_price_sensitivity": [
+    {
+      "output_to_input_price": 1,
+      "cached_to_input_price": 0.1,
+      "candidate_saving_per_correct_percent": {
+        "previous": 10.846662503802628,
+        "headroom_token": 9.574403299866429,
+        "headroom_cache": 1.2839775381492613
+      }
+    },
+    {
+      "output_to_input_price": 1,
+      "cached_to_input_price": 0.25,
+      "candidate_saving_per_correct_percent": {
+        "previous": 15.459652319137628,
+        "headroom_token": 12.042649817356121,
+        "headroom_cache": 5.620881798343191
+      }
+    },
+    {
+      "output_to_input_price": 1,
+      "cached_to_input_price": 0.5,
+      "candidate_saving_per_correct_percent": {
+        "previous": 22.171360682088203,
+        "headroom_token": 15.869988101758302,
+        "headroom_cache": 12.060013818971482
+      }
+    },
+    {
+      "output_to_input_price": 1,
+      "cached_to_input_price": 1,
+      "candidate_saving_per_correct_percent": {
+        "previous": 32.83577588806465,
+        "headroom_token": 22.60541723856352,
+        "headroom_cache": 22.618861500512455
+      }
+    },
+    {
+      "output_to_input_price": 3,
+      "cached_to_input_price": 0.1,
+      "candidate_saving_per_correct_percent": {
+        "previous": 9.013470231469922,
+        "headroom_token": 8.300042352995051,
+        "headroom_cache": 0.4832358165939965
+      }
+    },
+    {
+      "output_to_input_price": 3,
+      "cached_to_input_price": 0.25,
+      "candidate_saving_per_correct_percent": {
+        "previous": 13.478777405767362,
+        "headroom_token": 10.656331902079963,
+        "headroom_cache": 4.57983443511405
+      }
+    },
+    {
+      "output_to_input_price": 3,
+      "cached_to_input_price": 0.5,
+      "candidate_saving_per_correct_percent": {
+        "previous": 20.020632966155283,
+        "headroom_token": 14.325437142398801,
+        "headroom_cache": 10.706124951234465
+      }
+    },
+    {
+      "output_to_input_price": 3,
+      "cached_to_input_price": 1,
+      "candidate_saving_per_correct_percent": {
+        "previous": 30.52640707657619,
+        "headroom_token": 20.82818599594801,
+        "headroom_cache": 20.86728898108362
+      }
+    },
+    {
+      "output_to_input_price": 5,
+      "cached_to_input_price": 0.1,
+      "candidate_saving_per_correct_percent": {
+        "previous": 7.368700798712879,
+        "headroom_token": 7.1703382723958375,
+        "headroom_cache": -0.21875376408009295
+      }
+    },
+    {
+      "output_to_input_price": 5,
+      "cached_to_input_price": 0.25,
+      "candidate_saving_per_correct_percent": {
+        "previous": 11.692002191180507,
+        "headroom_token": 9.42355977736028,
+        "headroom_cache": 3.6622032980372476
+      }
+    },
+    {
+      "output_to_input_price": 5,
+      "cached_to_input_price": 0.5,
+      "candidate_saving_per_correct_percent": {
+        "previous": 18.06543837357053,
+        "headroom_token": 12.94530603979277,
+        "headroom_cache": 9.503008613581743
+      }
+    },
+    {
+      "output_to_input_price": 5,
+      "cached_to_input_price": 1,
+      "candidate_saving_per_correct_percent": {
+        "previous": 28.400510770597386,
+        "headroom_token": 19.22649338448289,
+        "headroom_cache": 19.289681608386143
+      }
+    },
+    {
+      "output_to_input_price": 10,
+      "cached_to_input_price": 0.1,
+      "candidate_saving_per_correct_percent": {
+        "previous": 3.912189750591133,
+        "headroom_token": 4.837398117739,
+        "headroom_cache": -1.6455585405430906
+      }
+    },
+    {
+      "output_to_input_price": 10,
+      "cached_to_input_price": 0.25,
+      "candidate_saving_per_correct_percent": {
+        "previous": 7.907459090146551,
+        "headroom_token": 6.8663438107282815,
+        "headroom_cache": 1.7826355681337613
+      }
+    },
+    {
+      "output_to_input_price": 10,
+      "cached_to_input_price": 0.5,
+      "candidate_saving_per_correct_percent": {
+        "previous": 13.875775511659416,
+        "headroom_token": 10.062256113907841,
+        "headroom_cache": 7.009763158705217
+      }
+    },
+    {
+      "output_to_input_price": 10,
+      "cached_to_input_price": 1,
+      "candidate_saving_per_correct_percent": {
+        "previous": 23.75793846192694,
+        "headroom_token": 15.838327526132401,
+        "headroom_cache": 15.955462769659
+      }
+    }
+  ],
+  "price_note": "Illustrative ratios only, not vendor prices, invoices, or net savings after infrastructure cost."
+}
